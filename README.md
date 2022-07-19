@@ -7,7 +7,7 @@ O projeto consiste na criação de um sistema de transferência entre contas ban
 * Back-end - Go (Sem a utilização de framework) / 2 aplicações idênticas (uma para cada banco)
 * Docker para orquestar o ambiente da aplicação
 * RabbitMQ ou qualquer outro sistema de mensageria
-* Banco de dados MySQL
+* Banco de dados MySQL / 2 bancos de dados independentes
 
 ## Contexto do sistema
 
@@ -36,7 +36,7 @@ Criar a aplicação usando pirâmides de testes será muito bem vindo
 ## Docker
 
 Crie as duas aplicações montando-as com Docker de forma que ao fazer `docker-compose up` seja possível testar todo o ambiente. 
-O Docker deve levantar os 2 back-ends, banco de dados e o RabbitMQ.
+O Docker deve levantar os 2 back-ends, 2 banco de dados e o RabbitMQ.
 
 ## Entrega
 
